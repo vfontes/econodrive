@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810DE23B19F1C82900E0339F /* EDScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 810DE23A19F1C82900E0339F /* EDScanner.m */; };
+		810DE23D19F1CE7300E0339F /* createDB.sql in Resources */ = {isa = PBXBuildFile; fileRef = 810DE23C19F1CE7300E0339F /* createDB.sql */; };
+		811799FE19F7C8B200B735B0 /* EDFuelEconomy.m in Sources */ = {isa = PBXBuildFile; fileRef = 811799FD19F7C8B200B735B0 /* EDFuelEconomy.m */; };
+		81179A0219F7D12B00B735B0 /* EDFuelEconomyIMAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 81179A0119F7D12B00B735B0 /* EDFuelEconomyIMAP.m */; };
+		8117B5BC19F536F400B61260 /* EDPIDFuelSystemStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8117B5BB19F536F400B61260 /* EDPIDFuelSystemStatus.m */; };
+		8117B5BF19F537B000B61260 /* EDPIDRPM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8117B5BE19F537B000B61260 /* EDPIDRPM.m */; };
+		8181D3561A03A812002B15D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8181D3551A03A812002B15D4 /* Default-568h@2x.png */; };
+		81848D571A0122BF000EF6E7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81848D561A0122BF000EF6E7 /* Storyboard.storyboard */; };
+		819CA4BA19F19E1400B51A25 /* EDPID.m in Sources */ = {isa = PBXBuildFile; fileRef = 819CA4B919F19E1400B51A25 /* EDPID.m */; };
+		819CA4BD19F1A0F200B51A25 /* EDSQLiteReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 819CA4BC19F1A0F200B51A25 /* EDSQLiteReader.m */; };
+		81C10B621A00F9A400844B54 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81C10B611A00F9A400844B54 /* Settings.bundle */; };
+		81C85C8B19F1979D006EB47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C85C8A19F1979D006EB47C /* main.m */; };
+		81C85C8E19F1979D006EB47C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C85C8D19F1979D006EB47C /* AppDelegate.m */; };
+		81C85C9119F1979D006EB47C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C85C9019F1979D006EB47C /* ViewController.m */; };
+		81C85C9619F1979D006EB47C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C85C9519F1979D006EB47C /* Images.xcassets */; };
+		81C85C9919F1979D006EB47C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81C85C9719F1979D006EB47C /* LaunchScreen.xib */; };
+		81C85CA519F1979D006EB47C /* EconoDriveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C85CA419F1979D006EB47C /* EconoDriveTests.m */; };
+		81CA845819F5694D007FAF39 /* EDPIDMAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA845719F5694D007FAF39 /* EDPIDMAP.m */; };
+		81CA845B19F56A51007FAF39 /* EDPIDIAT.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA845A19F56A51007FAF39 /* EDPIDIAT.m */; };
+		81CA845E19F56AF0007FAF39 /* EDPIDVSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA845D19F56AF0007FAF39 /* EDPIDVSS.m */; };
+		81CA846119F56D0E007FAF39 /* EDPIDO2Sensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA846019F56D0E007FAF39 /* EDPIDO2Sensor.m */; };
+		81E699FC19FA84ED00DDDBCD /* EDScannerSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E699FB19FA84ED00DDDBCD /* EDScannerSocket.m */; };
+		81FB7E2E19FFF02F005569F6 /* createDB.sql.old in Resources */ = {isa = PBXBuildFile; fileRef = 81FB7E2D19FFF02F005569F6 /* createDB.sql.old */; };
+		81FB7E301A0007C4005569F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FB7E2F1A0007C4005569F6 /* CoreLocation.framework */; };
+		CF933EED80312D963EFE6E74 /* libPods-EconoDrive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B69E8AAD260D6F108691ADD /* libPods-EconoDrive.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C85C9F19F1979D006EB47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C85C7D19F1979D006EB47C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C85C8419F1979D006EB47C;
+			remoteInfo = EconoDrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B69E8AAD260D6F108691ADD /* libPods-EconoDrive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EconoDrive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29503BF150B4226795924A5C /* Pods-EconoDrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconoDrive.release.xcconfig"; path = "Pods/Target Support Files/Pods-EconoDrive/Pods-EconoDrive.release.xcconfig"; sourceTree = "<group>"; };
+		6A77B01C9668C48DE4B21270 /* Pods-EconoDrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EconoDrive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EconoDrive/Pods-EconoDrive.debug.xcconfig"; sourceTree = "<group>"; };
+		810DE23919F1C82900E0339F /* EDScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDScanner.h; sourceTree = "<group>"; };
+		810DE23A19F1C82900E0339F /* EDScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDScanner.m; sourceTree = "<group>"; };
+		810DE23C19F1CE7300E0339F /* createDB.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createDB.sql; sourceTree = "<group>"; };
+		811799FC19F7C8B200B735B0 /* EDFuelEconomy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDFuelEconomy.h; sourceTree = "<group>"; };
+		811799FD19F7C8B200B735B0 /* EDFuelEconomy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDFuelEconomy.m; sourceTree = "<group>"; };
+		81179A0019F7D12B00B735B0 /* EDFuelEconomyIMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDFuelEconomyIMAP.h; sourceTree = "<group>"; };
+		81179A0119F7D12B00B735B0 /* EDFuelEconomyIMAP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDFuelEconomyIMAP.m; sourceTree = "<group>"; };
+		8117B5BA19F536F400B61260 /* EDPIDFuelSystemStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDPIDFuelSystemStatus.h; sourceTree = "<group>"; };
+		8117B5BB19F536F400B61260 /* EDPIDFuelSystemStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDPIDFuelSystemStatus.m; sourceTree = "<group>"; };
+		8117B5BD19F537B000B61260 /* EDPIDRPM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDPIDRPM.h; sourceTree = "<group>"; };
+		8117B5BE19F537B000B61260 /* EDPIDRPM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDPIDRPM.m; sourceTree = "<group>"; };
+		8181D3551A03A812002B15D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		81848D561A0122BF000EF6E7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		819CA4B819F19E1400B51A25 /* EDPID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDPID.h; sourceTree = "<group>"; };
+		819CA4B919F19E1400B51A25 /* EDPID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDPID.m; sourceTree = "<group>"; };
+		819CA4BB19F1A0F200B51A25 /* EDSQLiteReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSQLiteReader.h; sourceTree = "<group>"; };
+		819CA4BC19F1A0F200B51A25 /* EDSQLiteReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSQLiteReader.m; sourceTree = "<group>"; };
+		81C10B611A00F9A400844B54 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		81C1760419F2216300B8F6B6 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		81C1760519F2228F00B8F6B6 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		81C85C8519F1979D006EB47C /* EconoDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EconoDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C85C8919F1979D006EB47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C85C8A19F1979D006EB47C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81C85C8C19F1979D006EB47C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81C85C8D19F1979D006EB47C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81C85C8F19F1979D006EB47C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81C85C9019F1979D006EB47C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81C85C9519F1979D006EB47C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81C85C9819F1979D006EB47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		81C85C9E19F1979D006EB47C /* EconoDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EconoDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C85CA319F1979D006EB47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C85CA419F1979D006EB47C /* EconoDriveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EconoDriveTests.m; sourceTree = "<group>"; };
+		81CA845619F5694D007FAF39 /* EDPIDMAP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDPIDMAP.h; sourceTree = "<group>"; };
+		81CA845719F5694D007FAF39 /* EDPIDMAP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDPIDMAP.m; sourceTree = "<group>"; };
+		81CA845919F56A51007FAF39 /* EDPIDIAT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDPIDIAT.h; sourceTree = "<group>"; };
+		81CA845A19F56A51007FAF39 /* EDPIDIAT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDPIDIAT.m; sourceTree = "<group>"; };
+		81CA845C19F56AF0007FAF39 /* EDPIDVSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDPIDVSS.h; sourceTree = "<group>"; };
+		81CA845D19F56AF0007FAF39 /* EDPIDVSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDPIDVSS.m; sourceTree = "<group>"; };
+		81CA845F19F56D0E007FAF39 /* EDPIDO2Sensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDPIDO2Sensor.h; sourceTree = "<group>"; };
+		81CA846019F56D0E007FAF39 /* EDPIDO2Sensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDPIDO2Sensor.m; sourceTree = "<group>"; };
+		81E699FA19FA84ED00DDDBCD /* EDScannerSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDScannerSocket.h; sourceTree = "<group>"; };
+		81E699FB19FA84ED00DDDBCD /* EDScannerSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDScannerSocket.m; sourceTree = "<group>"; };
+		81FB7E2D19FFF02F005569F6 /* createDB.sql.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createDB.sql.old; sourceTree = "<group>"; };
+		81FB7E2F1A0007C4005569F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C85C8219F1979D006EB47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FB7E301A0007C4005569F6 /* CoreLocation.framework in Frameworks */,
+				CF933EED80312D963EFE6E74 /* libPods-EconoDrive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C85C9B19F1979D006EB47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		811799FF19F7C8B500B735B0 /* EDFuelEconomy */ = {
+			isa = PBXGroup;
+			children = (
+				811799FC19F7C8B200B735B0 /* EDFuelEconomy.h */,
+				811799FD19F7C8B200B735B0 /* EDFuelEconomy.m */,
+			);
+			name = EDFuelEconomy;
+			sourceTree = "<group>";
+		};
+		81179A0319F7D13100B735B0 /* EDFuelEconomyIMAP */ = {
+			isa = PBXGroup;
+			children = (
+				81179A0019F7D12B00B735B0 /* EDFuelEconomyIMAP.h */,
+				81179A0119F7D12B00B735B0 /* EDFuelEconomyIMAP.m */,
+			);
+			name = EDFuelEconomyIMAP;
+			sourceTree = "<group>";
+		};
+		819CA4B719F19D0400B51A25 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				81C1760919F226C900B8F6B6 /* Model */,
+				81C1760A19F226D400B8F6B6 /* View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		81C1760619F2269500B8F6B6 /* EDPID */ = {
+			isa = PBXGroup;
+			children = (
+				819CA4B819F19E1400B51A25 /* EDPID.h */,
+				819CA4B919F19E1400B51A25 /* EDPID.m */,
+				81CA845F19F56D0E007FAF39 /* EDPIDO2Sensor.h */,
+				81CA846019F56D0E007FAF39 /* EDPIDO2Sensor.m */,
+				81CA845619F5694D007FAF39 /* EDPIDMAP.h */,
+				81CA845719F5694D007FAF39 /* EDPIDMAP.m */,
+				81CA845919F56A51007FAF39 /* EDPIDIAT.h */,
+				81CA845A19F56A51007FAF39 /* EDPIDIAT.m */,
+				8117B5BA19F536F400B61260 /* EDPIDFuelSystemStatus.h */,
+				8117B5BB19F536F400B61260 /* EDPIDFuelSystemStatus.m */,
+				8117B5BD19F537B000B61260 /* EDPIDRPM.h */,
+				8117B5BE19F537B000B61260 /* EDPIDRPM.m */,
+				81CA845C19F56AF0007FAF39 /* EDPIDVSS.h */,
+				81CA845D19F56AF0007FAF39 /* EDPIDVSS.m */,
+			);
+			name = EDPID;
+			sourceTree = "<group>";
+		};
+		81C1760719F2269B00B8F6B6 /* EDSQLiteReader */ = {
+			isa = PBXGroup;
+			children = (
+				819CA4BB19F1A0F200B51A25 /* EDSQLiteReader.h */,
+				819CA4BC19F1A0F200B51A25 /* EDSQLiteReader.m */,
+			);
+			name = EDSQLiteReader;
+			sourceTree = "<group>";
+		};
+		81C1760819F226A800B8F6B6 /* EDScanner */ = {
+			isa = PBXGroup;
+			children = (
+				810DE23919F1C82900E0339F /* EDScanner.h */,
+				810DE23A19F1C82900E0339F /* EDScanner.m */,
+			);
+			name = EDScanner;
+			sourceTree = "<group>";
+		};
+		81C1760919F226C900B8F6B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				81C1760619F2269500B8F6B6 /* EDPID */,
+				81C1760819F226A800B8F6B6 /* EDScanner */,
+				81C1760719F2269B00B8F6B6 /* EDSQLiteReader */,
+				81E699FD19FA84F100DDDBCD /* EDScannerSocket */,
+				811799FF19F7C8B500B735B0 /* EDFuelEconomy */,
+				81179A0319F7D13100B735B0 /* EDFuelEconomyIMAP */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		81C1760A19F226D400B8F6B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81C85C8F19F1979D006EB47C /* ViewController.h */,
+				81C85C9019F1979D006EB47C /* ViewController.m */,
+				81848D561A0122BF000EF6E7 /* Storyboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		81C1760B19F226D900B8F6B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81C85C8C19F1979D006EB47C /* AppDelegate.h */,
+				81C85C8D19F1979D006EB47C /* AppDelegate.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		81C85C7C19F1979D006EB47C = {
+			isa = PBXGroup;
+			children = (
+				8181D3551A03A812002B15D4 /* Default-568h@2x.png */,
+				81C85C8719F1979D006EB47C /* EconoDrive */,
+				81C85CA119F1979D006EB47C /* EconoDriveTests */,
+				81C85C8619F1979D006EB47C /* Products */,
+				F2602D118E7AAEAA6F9C3DCC /* Pods */,
+				87D6AD4DD19CC25F6593649E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81C85C8619F1979D006EB47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C85C8519F1979D006EB47C /* EconoDrive.app */,
+				81C85C9E19F1979D006EB47C /* EconoDriveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C85C8719F1979D006EB47C /* EconoDrive */ = {
+			isa = PBXGroup;
+			children = (
+				819CA4B719F19D0400B51A25 /* Classes */,
+				81C1760B19F226D900B8F6B6 /* Controller */,
+				81C85C9519F1979D006EB47C /* Images.xcassets */,
+				81C85C9719F1979D006EB47C /* LaunchScreen.xib */,
+				81C85C8819F1979D006EB47C /* Supporting Files */,
+			);
+			path = EconoDrive;
+			sourceTree = "<group>";
+		};
+		81C85C8819F1979D006EB47C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81C85C8919F1979D006EB47C /* Info.plist */,
+				81C85C8A19F1979D006EB47C /* main.m */,
+				810DE23C19F1CE7300E0339F /* createDB.sql */,
+				81FB7E2D19FFF02F005569F6 /* createDB.sql.old */,
+				81C1760419F2216300B8F6B6 /* Constants.h */,
+				81C1760519F2228F00B8F6B6 /* Macros.h */,
+				81C10B611A00F9A400844B54 /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81C85CA119F1979D006EB47C /* EconoDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C85CA419F1979D006EB47C /* EconoDriveTests.m */,
+				81C85CA219F1979D006EB47C /* Supporting Files */,
+			);
+			path = EconoDriveTests;
+			sourceTree = "<group>";
+		};
+		81C85CA219F1979D006EB47C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81C85CA319F1979D006EB47C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81E699FD19FA84F100DDDBCD /* EDScannerSocket */ = {
+			isa = PBXGroup;
+			children = (
+				81E699FA19FA84ED00DDDBCD /* EDScannerSocket.h */,
+				81E699FB19FA84ED00DDDBCD /* EDScannerSocket.m */,
+			);
+			name = EDScannerSocket;
+			sourceTree = "<group>";
+		};
+		87D6AD4DD19CC25F6593649E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81FB7E2F1A0007C4005569F6 /* CoreLocation.framework */,
+				1B69E8AAD260D6F108691ADD /* libPods-EconoDrive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2602D118E7AAEAA6F9C3DCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A77B01C9668C48DE4B21270 /* Pods-EconoDrive.debug.xcconfig */,
+				29503BF150B4226795924A5C /* Pods-EconoDrive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C85C8419F1979D006EB47C /* EconoDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C85CA819F1979D006EB47C /* Build configuration list for PBXNativeTarget "EconoDrive" */;
+			buildPhases = (
+				F20B4DDCB4AFBF78EFD2F4AE /* Check Pods Manifest.lock */,
+				81C85C8119F1979D006EB47C /* Sources */,
+				81C85C8219F1979D006EB47C /* Frameworks */,
+				81C85C8319F1979D006EB47C /* Resources */,
+				A468202B4F54E722BFEDA177 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EconoDrive;
+			productName = EconoDrive;
+			productReference = 81C85C8519F1979D006EB47C /* EconoDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C85C9D19F1979D006EB47C /* EconoDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C85CAB19F1979D006EB47C /* Build configuration list for PBXNativeTarget "EconoDriveTests" */;
+			buildPhases = (
+				81C85C9A19F1979D006EB47C /* Sources */,
+				81C85C9B19F1979D006EB47C /* Frameworks */,
+				81C85C9C19F1979D006EB47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C85CA019F1979D006EB47C /* PBXTargetDependency */,
+			);
+			name = EconoDriveTests;
+			productName = EconoDriveTests;
+			productReference = 81C85C9E19F1979D006EB47C /* EconoDriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C85C7D19F1979D006EB47C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Vinicius Fontes";
+				TargetAttributes = {
+					81C85C8419F1979D006EB47C = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 2X6ZRP6936;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					81C85C9D19F1979D006EB47C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 81C85C8419F1979D006EB47C;
+					};
+				};
+			};
+			buildConfigurationList = 81C85C8019F1979D006EB47C /* Build configuration list for PBXProject "EconoDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C85C7C19F1979D006EB47C;
+			productRefGroup = 81C85C8619F1979D006EB47C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C85C8419F1979D006EB47C /* EconoDrive */,
+				81C85C9D19F1979D006EB47C /* EconoDriveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C85C8319F1979D006EB47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810DE23D19F1CE7300E0339F /* createDB.sql in Resources */,
+				81FB7E2E19FFF02F005569F6 /* createDB.sql.old in Resources */,
+				81C85C9919F1979D006EB47C /* LaunchScreen.xib in Resources */,
+				81C10B621A00F9A400844B54 /* Settings.bundle in Resources */,
+				81848D571A0122BF000EF6E7 /* Storyboard.storyboard in Resources */,
+				8181D3561A03A812002B15D4 /* Default-568h@2x.png in Resources */,
+				81C85C9619F1979D006EB47C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C85C9C19F1979D006EB47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A468202B4F54E722BFEDA177 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EconoDrive/Pods-EconoDrive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F20B4DDCB4AFBF78EFD2F4AE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C85C8119F1979D006EB47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811799FE19F7C8B200B735B0 /* EDFuelEconomy.m in Sources */,
+				819CA4BA19F19E1400B51A25 /* EDPID.m in Sources */,
+				81C85C9119F1979D006EB47C /* ViewController.m in Sources */,
+				8117B5BF19F537B000B61260 /* EDPIDRPM.m in Sources */,
+				81E699FC19FA84ED00DDDBCD /* EDScannerSocket.m in Sources */,
+				81179A0219F7D12B00B735B0 /* EDFuelEconomyIMAP.m in Sources */,
+				81CA846119F56D0E007FAF39 /* EDPIDO2Sensor.m in Sources */,
+				81CA845B19F56A51007FAF39 /* EDPIDIAT.m in Sources */,
+				819CA4BD19F1A0F200B51A25 /* EDSQLiteReader.m in Sources */,
+				81CA845E19F56AF0007FAF39 /* EDPIDVSS.m in Sources */,
+				8117B5BC19F536F400B61260 /* EDPIDFuelSystemStatus.m in Sources */,
+				81CA845819F5694D007FAF39 /* EDPIDMAP.m in Sources */,
+				81C85C8E19F1979D006EB47C /* AppDelegate.m in Sources */,
+				81C85C8B19F1979D006EB47C /* main.m in Sources */,
+				810DE23B19F1C82900E0339F /* EDScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C85C9A19F1979D006EB47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C85CA519F1979D006EB47C /* EconoDriveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C85CA019F1979D006EB47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C85C8419F1979D006EB47C /* EconoDrive */;
+			targetProxy = 81C85C9F19F1979D006EB47C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81C85C9719F1979D006EB47C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C85C9819F1979D006EB47C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81C85CA619F1979D006EB47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vinicius Fontes (DGY86E555W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vinicius Fontes (DGY86E555W)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81C85CA719F1979D006EB47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vinicius Fontes (DGY86E555W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vinicius Fontes (DGY86E555W)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C85CA919F1979D006EB47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A77B01C9668C48DE4B21270 /* Pods-EconoDrive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EconoDrive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-EconoDrive-CocoaAsyncSocket\"",
+					"-l\"Pods-EconoDrive-FMDB\"",
+					"-l\"Pods-EconoDrive-FXBlurView\"",
+					"-l\"Pods-EconoDrive-HexColors\"",
+					"-l\"Pods-EconoDrive-MessageBanner\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		81C85CAA19F1979D006EB47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29503BF150B4226795924A5C /* Pods-EconoDrive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EconoDrive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-EconoDrive-CocoaAsyncSocket\"",
+					"-l\"Pods-EconoDrive-FMDB\"",
+					"-l\"Pods-EconoDrive-FXBlurView\"",
+					"-l\"Pods-EconoDrive-HexColors\"",
+					"-l\"Pods-EconoDrive-MessageBanner\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		81C85CAC19F1979D006EB47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EconoDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EconoDrive.app/EconoDrive";
+			};
+			name = Debug;
+		};
+		81C85CAD19F1979D006EB47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EconoDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EconoDrive.app/EconoDrive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C85C8019F1979D006EB47C /* Build configuration list for PBXProject "EconoDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C85CA619F1979D006EB47C /* Debug */,
+				81C85CA719F1979D006EB47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		81C85CA819F1979D006EB47C /* Build configuration list for PBXNativeTarget "EconoDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C85CA919F1979D006EB47C /* Debug */,
+				81C85CAA19F1979D006EB47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		81C85CAB19F1979D006EB47C /* Build configuration list for PBXNativeTarget "EconoDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C85CAC19F1979D006EB47C /* Debug */,
+				81C85CAD19F1979D006EB47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81C85C7D19F1979D006EB47C /* Project object */;
+}

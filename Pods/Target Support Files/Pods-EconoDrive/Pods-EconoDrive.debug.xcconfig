@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CocoaAsyncSocket" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/FXBlurView" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/MessageBanner"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CocoaAsyncSocket" -isystem "${PODS_ROOT}/Headers/Public/FMDB" -isystem "${PODS_ROOT}/Headers/Public/FXBlurView" -isystem "${PODS_ROOT}/Headers/Public/HexColors" -isystem "${PODS_ROOT}/Headers/Public/MessageBanner"
+OTHER_LDFLAGS = -ObjC -l"Pods-EconoDrive-CocoaAsyncSocket" -l"Pods-EconoDrive-FMDB" -l"Pods-EconoDrive-FXBlurView" -l"Pods-EconoDrive-HexColors" -l"Pods-EconoDrive-MessageBanner" -l"sqlite3" -framework "Accelerate" -framework "CFNetwork" -framework "QuartzCore" -framework "Security"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

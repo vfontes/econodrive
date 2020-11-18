@@ -1,0 +1,26 @@
+PODS:
+  - CocoaAsyncSocket (7.3.5)
+  - FMDB (2.4):
+    - FMDB/standard
+  - FMDB/common (2.4)
+  - FMDB/standard (2.4):
+    - FMDB/common
+  - FXBlurView (1.6.2)
+  - HexColors (2.2.1)
+  - MessageBanner (1.0.2):
+    - FXBlurView (~> 1.6.1)
+    - HexColors (~> 2)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.3)
+  - FMDB (~> 2.4)
+  - MessageBanner (~> 1.0)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 45bdbbc1c0a5ed0640ff4c42af325ba43a2f099a
+  FMDB: 0b2fa25e5264ef177973c0cb8c02c711107979aa
+  FXBlurView: 47496afc9160097fa34af35fc4b310bd85d65dca
+  HexColors: 01384d2bbe8dc4ffa43c3b4135db6e976952d153
+  MessageBanner: cf07fcf29a66ef607be7e05b2ae3e9439cc14c68
+
+COCOAPODS: 0.34.4

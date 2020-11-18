@@ -1,0 +1,1256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00832899B982CE6FDD0A9319 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 59170C386BC0945DEA54754F /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		03B03A844D15B37871C1BD8F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCF44DE48D5DCADD1D866E /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		05E2B71C38345D4A6B366050 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F77CAE1300EFB94492524A6 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		07C37C65296BB685A0262DF0 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE0358F2689A3EBCC964C27 /* FMResultSet.h */; };
+		090C96537E0A7635005CC72C /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F17B5F8E99A646046CCBE8D1 /* GCDAsyncSocket.h */; };
+		0AC23D054DC349B03171B66D /* Pods-EconoDrive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D964B75B870FD4C089D97A35 /* Pods-EconoDrive-dummy.m */; };
+		0BC4F2C31C6798BAFC6D4502 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97797B92BB8D52EEAE4E011 /* Accelerate.framework */; };
+		130A14CB059EF9137E2A5AC8 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 539CF62DF112E4A3DEEB16E5 /* FXBlurView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1A291ADF961853A7F358F8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8297A5DCA7A59595251FEAC9 /* Foundation.framework */; };
+		1AEF9B47D6271DC049EDD844 /* MBLMessageBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 587D6D55B2144BD5D5C250E1 /* MBLMessageBannerView.h */; };
+		22B96117E015949E76FFE952 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 84770595C08859E6E739EA23 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2E10BF515DF99FFF3F25FAEC /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2278E183747EB0B0CB4D3FFC /* FMDatabaseAdditions.h */; };
+		34ACF51B22E075AC177EA9D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8297A5DCA7A59595251FEAC9 /* Foundation.framework */; };
+		3BDD351AAFE91B872110309E /* MBLMessageBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = C65A07A43B4855F91463EA9F /* MBLMessageBanner.h */; };
+		3D94FCCAD6A4F4BCA05EA675 /* Pods-EconoDrive-CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DA51810C3CD4F7C7D919D6 /* Pods-EconoDrive-CocoaAsyncSocket-dummy.m */; };
+		3F7F70A4603245B6B0073343 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 743208A763AF584177CB12E9 /* FMDB.h */; };
+		4516AFABBABEACD321222BAF /* MBLMessageBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A19DBB82E0A2A0D9C9817A /* MBLMessageBanner.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		486969FF46387EB3F5208FC5 /* HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6432F5D4B1777C62B1C283 /* HexColor.m */; };
+		4AF34F9A6AB017CEBD9D6A9F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB0AC15A2F2635836FB836D /* CFNetwork.framework */; };
+		56F610086EF162F37B2A18C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8297A5DCA7A59595251FEAC9 /* Foundation.framework */; };
+		71B954FDE7A9804EEE6042A6 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B22811167DCD0D98F15F01 /* FMDatabase.h */; };
+		7F239A00A4022C247CC7B545 /* Pods-EconoDrive-FXBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4674F10F9918972724B6AD /* Pods-EconoDrive-FXBlurView-dummy.m */; };
+		815BBDD2B35ADC89C3D305A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BE27BCE09AEB6084EAABD1 /* Security.framework */; };
+		8A6496B2CA947AB07A68756D /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFB72BF2918C330A878935C /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8D121599081DC5CC37A05DC0 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B2239E987549F2BECDB486 /* AsyncSocket.h */; };
+		90DA41879E66641C11078392 /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BF3310D82ACC847D0BAECC /* FXBlurView.h */; };
+		91CA2185C6603F474D53974F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8297A5DCA7A59595251FEAC9 /* Foundation.framework */; };
+		A6F303FB5A958AAB477D67C4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A6CCA6CC56D70487A5A84F /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A9FAD458D94E612F9439F3B7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8FD15A18F7629668829628 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		AB76B7A92CC16648CD910A12 /* Pods-EconoDrive-MessageBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA740CF6F2BF58DB86C845 /* Pods-EconoDrive-MessageBanner-dummy.m */; };
+		B69A564D764F5950A13C16FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8297A5DCA7A59595251FEAC9 /* Foundation.framework */; };
+		BB9FB1304C316FAAA17306CA /* Pods-EconoDrive-HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EEB89C1F2110732EBC1B77 /* Pods-EconoDrive-HexColors-dummy.m */; };
+		BF0C799D69034D9F7B32CCAF /* Pods-EconoDrive-FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D35CB906924761B84F9723 /* Pods-EconoDrive-FMDB-dummy.m */; };
+		C35978F9A9E025C2BC783192 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FF25E45A1F1A7D562C6FB /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C3A55D4D6326A18DB5FF8347 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D391B45933589D45232ADD /* QuartzCore.framework */; };
+		D738429E831A045158AF9C80 /* AsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B190256EFFB5C0AEA6D1DC /* AsyncUdpSocket.h */; };
+		DAB5BC0204FB799446971F40 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA828200459832CFF112BD4 /* GCDAsyncUdpSocket.h */; };
+		DED2217EE5B4E5573AF5E8E6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 166994FFB627AE3BFC1F1A3C /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E1C87C98563508986CCB060F /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B167F892A2C97E2D8E0F32D4 /* FMDatabaseQueue.h */; };
+		E232D63B49B943DB6E4D248C /* HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F368F5A620C08AAB5BC988D /* HexColor.h */; };
+		E8CBCD441C74AC9D52D7DF3B /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EF152B08DEF347119D0C44 /* FMDatabasePool.h */; };
+		F3BA79E9BB6DBEB80F3331DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8297A5DCA7A59595251FEAC9 /* Foundation.framework */; };
+		F5D57A6408FBA3F2262342A0 /* MBLMessageBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A126742AE50EC264780996B2 /* MBLMessageBannerView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E9A499E2F0D062E02EEEE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB2F97D939F8FD44123E793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8724C8E8B1D417694F14FA85;
+			remoteInfo = "Pods-EconoDrive-CocoaAsyncSocket";
+		};
+		5B6E2BF91AE59A377A548D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB2F97D939F8FD44123E793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FAB7C1A3DEE48830213AB12;
+			remoteInfo = "Pods-EconoDrive-FXBlurView";
+		};
+		87D26171CC2E38427C95FB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB2F97D939F8FD44123E793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052D11F2B897003B3CBA239B;
+			remoteInfo = "Pods-EconoDrive-HexColors";
+		};
+		9269B3315A5385C7BE8D87CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB2F97D939F8FD44123E793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87484E3B0771DDED488FC3F1;
+			remoteInfo = "Pods-EconoDrive-FMDB";
+		};
+		BB4381A5DEC357103A383D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB2F97D939F8FD44123E793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5A5EE65CAA72054EE88CB49;
+			remoteInfo = "Pods-EconoDrive-MessageBanner";
+		};
+		DB158385372FA78FD3EF3AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB2F97D939F8FD44123E793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FAB7C1A3DEE48830213AB12;
+			remoteInfo = "Pods-EconoDrive-FXBlurView";
+		};
+		FACBCD36BAF9C5C1528BA265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB2F97D939F8FD44123E793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052D11F2B897003B3CBA239B;
+			remoteInfo = "Pods-EconoDrive-HexColors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0442D4F8BCF3A6F8A64489AB /* Pods-EconoDrive-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EconoDrive-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A8E7D5CBAA5D427447FD6D1 /* Pods-EconoDrive-MessageBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EconoDrive-MessageBanner-prefix.pch"; sourceTree = "<group>"; };
+		166994FFB627AE3BFC1F1A3C /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		1909278E8DC5E2CBEEAB57A6 /* MessageBackgroundDefaultImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MessageBackgroundDefaultImage@2x.png"; path = "MessageBanner/Ressources/Images/MessageBackgroundDefaultImage@2x.png"; sourceTree = "<group>"; };
+		1A6432F5D4B1777C62B1C283 /* HexColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColor.m; path = Classes/HexColor.m; sourceTree = "<group>"; };
+		1F368F5A620C08AAB5BC988D /* HexColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColor.h; path = Classes/HexColor.h; sourceTree = "<group>"; };
+		20BE4BFC3D7DE02FA56AACAB /* libPods-EconoDrive-FXBlurView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EconoDrive-FXBlurView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2278E183747EB0B0CB4D3FFC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		251B94D686C06C49E8AF1FE2 /* ErrorBackgroundDefaultImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ErrorBackgroundDefaultImage.png; path = MessageBanner/Ressources/Images/ErrorBackgroundDefaultImage.png; sourceTree = "<group>"; };
+		2841539C599683CF656BFE01 /* Pods-EconoDrive-FXBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-FXBlurView.xcconfig"; sourceTree = "<group>"; };
+		29D35CB906924761B84F9723 /* Pods-EconoDrive-FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EconoDrive-FMDB-dummy.m"; sourceTree = "<group>"; };
+		2CE43E0B7EE301B0CF262EC3 /* Pods-EconoDrive-MessageBanner-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-MessageBanner-Private.xcconfig"; sourceTree = "<group>"; };
+		34EEB89C1F2110732EBC1B77 /* Pods-EconoDrive-HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EconoDrive-HexColors-dummy.m"; sourceTree = "<group>"; };
+		39D26A9BCA43E9E334E13B15 /* Pods-EconoDrive-FXBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EconoDrive-FXBlurView-prefix.pch"; sourceTree = "<group>"; };
+		3A8FF25E45A1F1A7D562C6FB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3ABB853D0CFE29E3461FDE2B /* SuccessBackgroundDefaultImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = SuccessBackgroundDefaultImage.png; path = MessageBanner/Ressources/Images/SuccessBackgroundDefaultImage.png; sourceTree = "<group>"; };
+		3B5444ED4BAC0564516ABE9F /* libPods-EconoDrive-MessageBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EconoDrive-MessageBanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		448BF69B177B79D12A59215A /* libPods-EconoDrive-FMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EconoDrive-FMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E9482CCE176972A1617BA1 /* Pods-EconoDrive-CocoaAsyncSocket-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-CocoaAsyncSocket-Private.xcconfig"; sourceTree = "<group>"; };
+		4BC12EAC99B98C2B3E34C3A2 /* WarningBackgroundDefaultImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "WarningBackgroundDefaultImage@2x.png"; path = "MessageBanner/Ressources/Images/WarningBackgroundDefaultImage@2x.png"; sourceTree = "<group>"; };
+		4BFCF44DE48D5DCADD1D866E /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		4CF6774281B130053914BCAA /* Pods-EconoDrive-HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EconoDrive-HexColors-prefix.pch"; sourceTree = "<group>"; };
+		4EFFE3038D5C3056FA8B17FB /* ErrorDefaultLeftImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ErrorDefaultLeftImage.png; path = MessageBanner/Ressources/Images/ErrorDefaultLeftImage.png; sourceTree = "<group>"; };
+		4F591FDB22E61A0E0064922E /* Pods-EconoDrive-HexColors-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-HexColors-Private.xcconfig"; sourceTree = "<group>"; };
+		539CF62DF112E4A3DEEB16E5 /* FXBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = FXBlurView/FXBlurView.m; sourceTree = "<group>"; };
+		53DA51810C3CD4F7C7D919D6 /* Pods-EconoDrive-CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EconoDrive-CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		54D391B45933589D45232ADD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		550B76360326978A42D729BD /* SuccessDefaultLeftImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = SuccessDefaultLeftImage.png; path = MessageBanner/Ressources/Images/SuccessDefaultLeftImage.png; sourceTree = "<group>"; };
+		587D6D55B2144BD5D5C250E1 /* MBLMessageBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMessageBannerView.h; path = MessageBanner/Views/MBLMessageBannerView.h; sourceTree = "<group>"; };
+		59170C386BC0945DEA54754F /* AsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = RunLoop/AsyncUdpSocket.m; sourceTree = "<group>"; };
+		5CE2A189212CF32A71A83B27 /* Pods-EconoDrive-FXBlurView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-FXBlurView-Private.xcconfig"; sourceTree = "<group>"; };
+		62A17A1CFCE098C7F18AE3B1 /* Pods-EconoDrive-FMDB-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-FMDB-Private.xcconfig"; sourceTree = "<group>"; };
+		62EEE8428887C78B68B69BEA /* Pods-EconoDrive-FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-FMDB.xcconfig"; sourceTree = "<group>"; };
+		671C6307BF98A537D3704006 /* MessageBannerDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = MessageBannerDesign.json; path = "MessageBanner/Ressources/Configuration Files/MessageBannerDesign.json"; sourceTree = "<group>"; };
+		68BA740CF6F2BF58DB86C845 /* Pods-EconoDrive-MessageBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EconoDrive-MessageBanner-dummy.m"; sourceTree = "<group>"; };
+		68BE27BCE09AEB6084EAABD1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		6F77CAE1300EFB94492524A6 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		6FFB72BF2918C330A878935C /* AsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = RunLoop/AsyncSocket.m; sourceTree = "<group>"; };
+		743208A763AF584177CB12E9 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		75A6CCA6CC56D70487A5A84F /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		7CB0AC15A2F2635836FB836D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		7F8FD15A18F7629668829628 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		80FC4E4EEE201970BED1F0E1 /* Pods-EconoDrive-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EconoDrive-environment.h"; sourceTree = "<group>"; };
+		8297A5DCA7A59595251FEAC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82DA828D63A864BC36AC6E94 /* WarningBackgroundDefaultImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = WarningBackgroundDefaultImage.png; path = MessageBanner/Ressources/Images/WarningBackgroundDefaultImage.png; sourceTree = "<group>"; };
+		84770595C08859E6E739EA23 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		85A19DBB82E0A2A0D9C9817A /* MBLMessageBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBLMessageBanner.m; path = MessageBanner/Classes/MBLMessageBanner.m; sourceTree = "<group>"; };
+		922AD993339475DC822523F1 /* Pods-EconoDrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive.release.xcconfig"; sourceTree = "<group>"; };
+		93B190256EFFB5C0AEA6D1DC /* AsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = RunLoop/AsyncUdpSocket.h; sourceTree = "<group>"; };
+		963FF946B920284EC585C8B4 /* libPods-EconoDrive-HexColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EconoDrive-HexColors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		980E937FE8CBE3E8B3925399 /* Pods-EconoDrive-FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EconoDrive-FMDB-prefix.pch"; sourceTree = "<group>"; };
+		98E0DFEA94787C82452B0F7F /* WarningDefaultLeftImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = WarningDefaultLeftImage.png; path = MessageBanner/Ressources/Images/WarningDefaultLeftImage.png; sourceTree = "<group>"; };
+		9BA828200459832CFF112BD4 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		A126742AE50EC264780996B2 /* MBLMessageBannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBLMessageBannerView.m; path = MessageBanner/Views/MBLMessageBannerView.m; sourceTree = "<group>"; };
+		A12D957EAE9B3338AF5D246C /* SuccessDefaultLeftImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SuccessDefaultLeftImage@2x.png"; path = "MessageBanner/Ressources/Images/SuccessDefaultLeftImage@2x.png"; sourceTree = "<group>"; };
+		A851CD451C42CA30D3CC8358 /* WarningDefaultLeftImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "WarningDefaultLeftImage@2x.png"; path = "MessageBanner/Ressources/Images/WarningDefaultLeftImage@2x.png"; sourceTree = "<group>"; };
+		A8BF3310D82ACC847D0BAECC /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = FXBlurView/FXBlurView.h; sourceTree = "<group>"; };
+		B167F892A2C97E2D8E0F32D4 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B3B22811167DCD0D98F15F01 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		B4F7ADF37B07388644C539DC /* MessageDefaultLeftImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MessageDefaultLeftImage.png; path = MessageBanner/Ressources/Images/MessageDefaultLeftImage.png; sourceTree = "<group>"; };
+		B516A590F37E7D55514F5A1C /* Pods-EconoDrive-MessageBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-MessageBanner.xcconfig"; sourceTree = "<group>"; };
+		BAC5DE5D97D42C0665BD7776 /* Pods-EconoDrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE0358F2689A3EBCC964C27 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		C0B68522F6599D016430BB33 /* Pods-EconoDrive-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EconoDrive-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C316BAB9462B6B886A267927 /* Pods-EconoDrive-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EconoDrive-resources.sh"; sourceTree = "<group>"; };
+		C65A07A43B4855F91463EA9F /* MBLMessageBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBLMessageBanner.h; path = MessageBanner/Classes/MBLMessageBanner.h; sourceTree = "<group>"; };
+		C9B316E2FBE21FC62177BB24 /* ErrorBackgroundDefaultImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ErrorBackgroundDefaultImage@2x.png"; path = "MessageBanner/Ressources/Images/ErrorBackgroundDefaultImage@2x.png"; sourceTree = "<group>"; };
+		CC4674F10F9918972724B6AD /* Pods-EconoDrive-FXBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EconoDrive-FXBlurView-dummy.m"; sourceTree = "<group>"; };
+		D0EF152B08DEF347119D0C44 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		D5140AFDB09383D674A21094 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D5733665F4C8101D600B68E1 /* Pods-EconoDrive-CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EconoDrive-CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		D964B75B870FD4C089D97A35 /* Pods-EconoDrive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EconoDrive-dummy.m"; sourceTree = "<group>"; };
+		D97797B92BB8D52EEAE4E011 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		DF180DEF902F4291F2B27236 /* Pods-EconoDrive-HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-HexColors.xcconfig"; sourceTree = "<group>"; };
+		DFBBF888EA091ECDBC2C9210 /* ErrorDefaultLeftImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ErrorDefaultLeftImage@2x.png"; path = "MessageBanner/Ressources/Images/ErrorDefaultLeftImage@2x.png"; sourceTree = "<group>"; };
+		E37DFF6B49AE57E4F412C765 /* libPods-EconoDrive-CocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EconoDrive-CocoaAsyncSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B2239E987549F2BECDB486 /* AsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = RunLoop/AsyncSocket.h; sourceTree = "<group>"; };
+		EF24BB17AADA31C3A89C23E8 /* SuccessBackgroundDefaultImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SuccessBackgroundDefaultImage@2x.png"; path = "MessageBanner/Ressources/Images/SuccessBackgroundDefaultImage@2x.png"; sourceTree = "<group>"; };
+		F06427F1F99ED600F820AA33 /* MessageDefaultLeftImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MessageDefaultLeftImage@2x.png"; path = "MessageBanner/Ressources/Images/MessageDefaultLeftImage@2x.png"; sourceTree = "<group>"; };
+		F17B5F8E99A646046CCBE8D1 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		F7740BCC89E11CE52A2308A1 /* libPods-EconoDrive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EconoDrive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C2F5BD9D5C4FC6550FF83E /* Pods-EconoDrive-CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EconoDrive-CocoaAsyncSocket.xcconfig"; sourceTree = "<group>"; };
+		FE0E702BA924FCA9210E8D38 /* MessageBackgroundDefaultImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = MessageBackgroundDefaultImage.png; path = MessageBanner/Ressources/Images/MessageBackgroundDefaultImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11324963E7636CCED0199C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BA79E9BB6DBEB80F3331DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193DEC20EEE4EB7874381B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC4F2C31C6798BAFC6D4502 /* Accelerate.framework in Frameworks */,
+				1A291ADF961853A7F358F8C4 /* Foundation.framework in Frameworks */,
+				C3A55D4D6326A18DB5FF8347 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20552A5750F5E349BE731EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF34F9A6AB017CEBD9D6A9F /* CFNetwork.framework in Frameworks */,
+				91CA2185C6603F474D53974F /* Foundation.framework in Frameworks */,
+				815BBDD2B35ADC89C3D305A4 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3757F7FA2B6F813D4317FF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F610086EF162F37B2A18C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87546F4F2479A5F494713C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69A564D764F5950A13C16FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBC0DEC920CF196E75C455A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ACF51B22E075AC177EA9D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2120F26A6BF84B4FC35179C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				251B94D686C06C49E8AF1FE2 /* ErrorBackgroundDefaultImage.png */,
+				C9B316E2FBE21FC62177BB24 /* ErrorBackgroundDefaultImage@2x.png */,
+				4EFFE3038D5C3056FA8B17FB /* ErrorDefaultLeftImage.png */,
+				DFBBF888EA091ECDBC2C9210 /* ErrorDefaultLeftImage@2x.png */,
+				FE0E702BA924FCA9210E8D38 /* MessageBackgroundDefaultImage.png */,
+				1909278E8DC5E2CBEEAB57A6 /* MessageBackgroundDefaultImage@2x.png */,
+				671C6307BF98A537D3704006 /* MessageBannerDesign.json */,
+				B4F7ADF37B07388644C539DC /* MessageDefaultLeftImage.png */,
+				F06427F1F99ED600F820AA33 /* MessageDefaultLeftImage@2x.png */,
+				3ABB853D0CFE29E3461FDE2B /* SuccessBackgroundDefaultImage.png */,
+				EF24BB17AADA31C3A89C23E8 /* SuccessBackgroundDefaultImage@2x.png */,
+				550B76360326978A42D729BD /* SuccessDefaultLeftImage.png */,
+				A12D957EAE9B3338AF5D246C /* SuccessDefaultLeftImage@2x.png */,
+				82DA828D63A864BC36AC6E94 /* WarningBackgroundDefaultImage.png */,
+				4BC12EAC99B98C2B3E34C3A2 /* WarningBackgroundDefaultImage@2x.png */,
+				98E0DFEA94787C82452B0F7F /* WarningDefaultLeftImage.png */,
+				A851CD451C42CA30D3CC8358 /* WarningDefaultLeftImage@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2CEBEE9F6253439DFCF5D600 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4492894B16DD048D1451F0BB /* Pods-EconoDrive */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2FFDE20599F54FE2688B106C /* HexColors */ = {
+			isa = PBXGroup;
+			children = (
+				1F368F5A620C08AAB5BC988D /* HexColor.h */,
+				1A6432F5D4B1777C62B1C283 /* HexColor.m */,
+				A58A7BF3EC51BABB368A22E3 /* Support Files */,
+			);
+			path = HexColors;
+			sourceTree = "<group>";
+		};
+		3FD9997F434C5F74C2169DF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C56A8E272AF77D25DD290613 /* CocoaAsyncSocket */,
+				C1225A68E4F4A75EFD70BB40 /* FMDB */,
+				70F4C5764CD50860C8AB0047 /* FXBlurView */,
+				2FFDE20599F54FE2688B106C /* HexColors */,
+				B8E0FC2FBB33F7A0F245CBFF /* MessageBanner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4492894B16DD048D1451F0BB /* Pods-EconoDrive */ = {
+			isa = PBXGroup;
+			children = (
+				C0B68522F6599D016430BB33 /* Pods-EconoDrive-acknowledgements.markdown */,
+				0442D4F8BCF3A6F8A64489AB /* Pods-EconoDrive-acknowledgements.plist */,
+				D964B75B870FD4C089D97A35 /* Pods-EconoDrive-dummy.m */,
+				80FC4E4EEE201970BED1F0E1 /* Pods-EconoDrive-environment.h */,
+				C316BAB9462B6B886A267927 /* Pods-EconoDrive-resources.sh */,
+				BAC5DE5D97D42C0665BD7776 /* Pods-EconoDrive.debug.xcconfig */,
+				922AD993339475DC822523F1 /* Pods-EconoDrive.release.xcconfig */,
+			);
+			name = "Pods-EconoDrive";
+			path = "Target Support Files/Pods-EconoDrive";
+			sourceTree = "<group>";
+		};
+		46C2AE9377DD6298C74CC3A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62EEE8428887C78B68B69BEA /* Pods-EconoDrive-FMDB.xcconfig */,
+				62A17A1CFCE098C7F18AE3B1 /* Pods-EconoDrive-FMDB-Private.xcconfig */,
+				29D35CB906924761B84F9723 /* Pods-EconoDrive-FMDB-dummy.m */,
+				980E937FE8CBE3E8B3925399 /* Pods-EconoDrive-FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EconoDrive-FMDB";
+			sourceTree = "<group>";
+		};
+		6D82A4B04CC16560D15C4856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7740BCC89E11CE52A2308A1 /* libPods-EconoDrive.a */,
+				E37DFF6B49AE57E4F412C765 /* libPods-EconoDrive-CocoaAsyncSocket.a */,
+				448BF69B177B79D12A59215A /* libPods-EconoDrive-FMDB.a */,
+				20BE4BFC3D7DE02FA56AACAB /* libPods-EconoDrive-FXBlurView.a */,
+				963FF946B920284EC585C8B4 /* libPods-EconoDrive-HexColors.a */,
+				3B5444ED4BAC0564516ABE9F /* libPods-EconoDrive-MessageBanner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F4C5764CD50860C8AB0047 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				A8BF3310D82ACC847D0BAECC /* FXBlurView.h */,
+				539CF62DF112E4A3DEEB16E5 /* FXBlurView.m */,
+				B46A274BA3A246EC5B1B02D1 /* Support Files */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		7A11545631B6735BA9794966 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				743208A763AF584177CB12E9 /* FMDB.h */,
+				B3B22811167DCD0D98F15F01 /* FMDatabase.h */,
+				4BFCF44DE48D5DCADD1D866E /* FMDatabase.m */,
+				2278E183747EB0B0CB4D3FFC /* FMDatabaseAdditions.h */,
+				7F8FD15A18F7629668829628 /* FMDatabaseAdditions.m */,
+				D0EF152B08DEF347119D0C44 /* FMDatabasePool.h */,
+				166994FFB627AE3BFC1F1A3C /* FMDatabasePool.m */,
+				B167F892A2C97E2D8E0F32D4 /* FMDatabaseQueue.h */,
+				3A8FF25E45A1F1A7D562C6FB /* FMDatabaseQueue.m */,
+				BFE0358F2689A3EBCC964C27 /* FMResultSet.h */,
+				75A6CCA6CC56D70487A5A84F /* FMResultSet.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		A58A7BF3EC51BABB368A22E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF180DEF902F4291F2B27236 /* Pods-EconoDrive-HexColors.xcconfig */,
+				4F591FDB22E61A0E0064922E /* Pods-EconoDrive-HexColors-Private.xcconfig */,
+				34EEB89C1F2110732EBC1B77 /* Pods-EconoDrive-HexColors-dummy.m */,
+				4CF6774281B130053914BCAA /* Pods-EconoDrive-HexColors-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EconoDrive-HexColors";
+			sourceTree = "<group>";
+		};
+		AB420DA7697857A419F8CEE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C2F5BD9D5C4FC6550FF83E /* Pods-EconoDrive-CocoaAsyncSocket.xcconfig */,
+				45E9482CCE176972A1617BA1 /* Pods-EconoDrive-CocoaAsyncSocket-Private.xcconfig */,
+				53DA51810C3CD4F7C7D919D6 /* Pods-EconoDrive-CocoaAsyncSocket-dummy.m */,
+				D5733665F4C8101D600B68E1 /* Pods-EconoDrive-CocoaAsyncSocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EconoDrive-CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		B46A274BA3A246EC5B1B02D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2841539C599683CF656BFE01 /* Pods-EconoDrive-FXBlurView.xcconfig */,
+				5CE2A189212CF32A71A83B27 /* Pods-EconoDrive-FXBlurView-Private.xcconfig */,
+				CC4674F10F9918972724B6AD /* Pods-EconoDrive-FXBlurView-dummy.m */,
+				39D26A9BCA43E9E334E13B15 /* Pods-EconoDrive-FXBlurView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EconoDrive-FXBlurView";
+			sourceTree = "<group>";
+		};
+		B6423515155DF3F08F34E307 = {
+			isa = PBXGroup;
+			children = (
+				D5140AFDB09383D674A21094 /* Podfile */,
+				E5CE9058D2B2DDC93455F61A /* Frameworks */,
+				3FD9997F434C5F74C2169DF0 /* Pods */,
+				6D82A4B04CC16560D15C4856 /* Products */,
+				2CEBEE9F6253439DFCF5D600 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E0FC2FBB33F7A0F245CBFF /* MessageBanner */ = {
+			isa = PBXGroup;
+			children = (
+				C65A07A43B4855F91463EA9F /* MBLMessageBanner.h */,
+				85A19DBB82E0A2A0D9C9817A /* MBLMessageBanner.m */,
+				587D6D55B2144BD5D5C250E1 /* MBLMessageBannerView.h */,
+				A126742AE50EC264780996B2 /* MBLMessageBannerView.m */,
+				2120F26A6BF84B4FC35179C1 /* Resources */,
+				F17A8C99D476D03DA49BAE06 /* Support Files */,
+			);
+			path = MessageBanner;
+			sourceTree = "<group>";
+		};
+		C1225A68E4F4A75EFD70BB40 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				46C2AE9377DD6298C74CC3A3 /* Support Files */,
+				7A11545631B6735BA9794966 /* common */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		C56A8E272AF77D25DD290613 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				E8B2239E987549F2BECDB486 /* AsyncSocket.h */,
+				6FFB72BF2918C330A878935C /* AsyncSocket.m */,
+				93B190256EFFB5C0AEA6D1DC /* AsyncUdpSocket.h */,
+				59170C386BC0945DEA54754F /* AsyncUdpSocket.m */,
+				F17B5F8E99A646046CCBE8D1 /* GCDAsyncSocket.h */,
+				6F77CAE1300EFB94492524A6 /* GCDAsyncSocket.m */,
+				9BA828200459832CFF112BD4 /* GCDAsyncUdpSocket.h */,
+				84770595C08859E6E739EA23 /* GCDAsyncUdpSocket.m */,
+				AB420DA7697857A419F8CEE9 /* Support Files */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		C6DE4FC86FA8926B2BA614B0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D97797B92BB8D52EEAE4E011 /* Accelerate.framework */,
+				7CB0AC15A2F2635836FB836D /* CFNetwork.framework */,
+				8297A5DCA7A59595251FEAC9 /* Foundation.framework */,
+				54D391B45933589D45232ADD /* QuartzCore.framework */,
+				68BE27BCE09AEB6084EAABD1 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5CE9058D2B2DDC93455F61A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DE4FC86FA8926B2BA614B0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F17A8C99D476D03DA49BAE06 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B516A590F37E7D55514F5A1C /* Pods-EconoDrive-MessageBanner.xcconfig */,
+				2CE43E0B7EE301B0CF262EC3 /* Pods-EconoDrive-MessageBanner-Private.xcconfig */,
+				68BA740CF6F2BF58DB86C845 /* Pods-EconoDrive-MessageBanner-dummy.m */,
+				0A8E7D5CBAA5D427447FD6D1 /* Pods-EconoDrive-MessageBanner-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EconoDrive-MessageBanner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30A3DBE86F0C4CE908BA4CC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7F70A4603245B6B0073343 /* FMDB.h in Headers */,
+				71B954FDE7A9804EEE6042A6 /* FMDatabase.h in Headers */,
+				2E10BF515DF99FFF3F25FAEC /* FMDatabaseAdditions.h in Headers */,
+				E8CBCD441C74AC9D52D7DF3B /* FMDatabasePool.h in Headers */,
+				E1C87C98563508986CCB060F /* FMDatabaseQueue.h in Headers */,
+				07C37C65296BB685A0262DF0 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33591C630221E61530D7E10B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D121599081DC5CC37A05DC0 /* AsyncSocket.h in Headers */,
+				D738429E831A045158AF9C80 /* AsyncUdpSocket.h in Headers */,
+				090C96537E0A7635005CC72C /* GCDAsyncSocket.h in Headers */,
+				DAB5BC0204FB799446971F40 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887D2832DF86D77EBCB61477 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDD351AAFE91B872110309E /* MBLMessageBanner.h in Headers */,
+				1AEF9B47D6271DC049EDD844 /* MBLMessageBannerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D29A74E5B06EE5C39BE224 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DA41879E66641C11078392 /* FXBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD097EA4127FE182B813068 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E232D63B49B943DB6E4D248C /* HexColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		052D11F2B897003B3CBA239B /* Pods-EconoDrive-HexColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DCF117DA3E0BBDF5E3FACD /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-HexColors" */;
+			buildPhases = (
+				8460D950F6FAE1E1D3035256 /* Sources */,
+				3757F7FA2B6F813D4317FF64 /* Frameworks */,
+				EDD097EA4127FE182B813068 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EconoDrive-HexColors";
+			productName = "Pods-EconoDrive-HexColors";
+			productReference = 963FF946B920284EC585C8B4 /* libPods-EconoDrive-HexColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0FAB7C1A3DEE48830213AB12 /* Pods-EconoDrive-FXBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7F5F5A6A5DB5BF345EF65D /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-FXBlurView" */;
+			buildPhases = (
+				77A8898B87468B305CE4013B /* Sources */,
+				193DEC20EEE4EB7874381B5B /* Frameworks */,
+				B9D29A74E5B06EE5C39BE224 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EconoDrive-FXBlurView";
+			productName = "Pods-EconoDrive-FXBlurView";
+			productReference = 20BE4BFC3D7DE02FA56AACAB /* libPods-EconoDrive-FXBlurView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8724C8E8B1D417694F14FA85 /* Pods-EconoDrive-CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D1AAE4AF9915C79D0A34199 /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-CocoaAsyncSocket" */;
+			buildPhases = (
+				639F0855E0EE735E71F3A108 /* Sources */,
+				20552A5750F5E349BE731EB5 /* Frameworks */,
+				33591C630221E61530D7E10B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EconoDrive-CocoaAsyncSocket";
+			productName = "Pods-EconoDrive-CocoaAsyncSocket";
+			productReference = E37DFF6B49AE57E4F412C765 /* libPods-EconoDrive-CocoaAsyncSocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		87484E3B0771DDED488FC3F1 /* Pods-EconoDrive-FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD28DC63D6DC515930E8113 /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-FMDB" */;
+			buildPhases = (
+				1056DB940416FE348B42A0E3 /* Sources */,
+				11324963E7636CCED0199C24 /* Frameworks */,
+				30A3DBE86F0C4CE908BA4CC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EconoDrive-FMDB";
+			productName = "Pods-EconoDrive-FMDB";
+			productReference = 448BF69B177B79D12A59215A /* libPods-EconoDrive-FMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC266AF2C83B65EC37D8C6FA /* Pods-EconoDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E289129D2337A941ECD035B7 /* Build configuration list for PBXNativeTarget "Pods-EconoDrive" */;
+			buildPhases = (
+				E057DAC344D0BFDD480F2149 /* Sources */,
+				ECBC0DEC920CF196E75C455A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79B107386439F11E7EA7621E /* PBXTargetDependency */,
+				8A05012BBE5AADF1CE51C8D5 /* PBXTargetDependency */,
+				98C8385414C858FBA52C16C7 /* PBXTargetDependency */,
+				847AC8DE54AB3CEC88D23E30 /* PBXTargetDependency */,
+				E7498A18BC6DC1FCE41A5EE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-EconoDrive";
+			productName = "Pods-EconoDrive";
+			productReference = F7740BCC89E11CE52A2308A1 /* libPods-EconoDrive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E5A5EE65CAA72054EE88CB49 /* Pods-EconoDrive-MessageBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E86158017F98824D7DC9CC /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-MessageBanner" */;
+			buildPhases = (
+				603AE7CC89910196012479D7 /* Sources */,
+				D87546F4F2479A5F494713C1 /* Frameworks */,
+				887D2832DF86D77EBCB61477 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4350BA9B193AE5A33C2D03 /* PBXTargetDependency */,
+				27D5E1DBB1E81889F9B030C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-EconoDrive-MessageBanner";
+			productName = "Pods-EconoDrive-MessageBanner";
+			productReference = 3B5444ED4BAC0564516ABE9F /* libPods-EconoDrive-MessageBanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EB2F97D939F8FD44123E793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = E42C77D426AAE3F68C51CAE2 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6423515155DF3F08F34E307;
+			productRefGroup = 6D82A4B04CC16560D15C4856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC266AF2C83B65EC37D8C6FA /* Pods-EconoDrive */,
+				8724C8E8B1D417694F14FA85 /* Pods-EconoDrive-CocoaAsyncSocket */,
+				87484E3B0771DDED488FC3F1 /* Pods-EconoDrive-FMDB */,
+				0FAB7C1A3DEE48830213AB12 /* Pods-EconoDrive-FXBlurView */,
+				052D11F2B897003B3CBA239B /* Pods-EconoDrive-HexColors */,
+				E5A5EE65CAA72054EE88CB49 /* Pods-EconoDrive-MessageBanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1056DB940416FE348B42A0E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B03A844D15B37871C1BD8F /* FMDatabase.m in Sources */,
+				A9FAD458D94E612F9439F3B7 /* FMDatabaseAdditions.m in Sources */,
+				DED2217EE5B4E5573AF5E8E6 /* FMDatabasePool.m in Sources */,
+				C35978F9A9E025C2BC783192 /* FMDatabaseQueue.m in Sources */,
+				A6F303FB5A958AAB477D67C4 /* FMResultSet.m in Sources */,
+				BF0C799D69034D9F7B32CCAF /* Pods-EconoDrive-FMDB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603AE7CC89910196012479D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4516AFABBABEACD321222BAF /* MBLMessageBanner.m in Sources */,
+				F5D57A6408FBA3F2262342A0 /* MBLMessageBannerView.m in Sources */,
+				AB76B7A92CC16648CD910A12 /* Pods-EconoDrive-MessageBanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639F0855E0EE735E71F3A108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6496B2CA947AB07A68756D /* AsyncSocket.m in Sources */,
+				00832899B982CE6FDD0A9319 /* AsyncUdpSocket.m in Sources */,
+				05E2B71C38345D4A6B366050 /* GCDAsyncSocket.m in Sources */,
+				22B96117E015949E76FFE952 /* GCDAsyncUdpSocket.m in Sources */,
+				3D94FCCAD6A4F4BCA05EA675 /* Pods-EconoDrive-CocoaAsyncSocket-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A8898B87468B305CE4013B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130A14CB059EF9137E2A5AC8 /* FXBlurView.m in Sources */,
+				7F239A00A4022C247CC7B545 /* Pods-EconoDrive-FXBlurView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8460D950F6FAE1E1D3035256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486969FF46387EB3F5208FC5 /* HexColor.m in Sources */,
+				BB9FB1304C316FAAA17306CA /* Pods-EconoDrive-HexColors-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E057DAC344D0BFDD480F2149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC23D054DC349B03171B66D /* Pods-EconoDrive-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27D5E1DBB1E81889F9B030C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052D11F2B897003B3CBA239B /* Pods-EconoDrive-HexColors */;
+			targetProxy = FACBCD36BAF9C5C1528BA265 /* PBXContainerItemProxy */;
+		};
+		79B107386439F11E7EA7621E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8724C8E8B1D417694F14FA85 /* Pods-EconoDrive-CocoaAsyncSocket */;
+			targetProxy = 1E9A499E2F0D062E02EEEE9C /* PBXContainerItemProxy */;
+		};
+		847AC8DE54AB3CEC88D23E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052D11F2B897003B3CBA239B /* Pods-EconoDrive-HexColors */;
+			targetProxy = 87D26171CC2E38427C95FB47 /* PBXContainerItemProxy */;
+		};
+		8A05012BBE5AADF1CE51C8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87484E3B0771DDED488FC3F1 /* Pods-EconoDrive-FMDB */;
+			targetProxy = 9269B3315A5385C7BE8D87CC /* PBXContainerItemProxy */;
+		};
+		98C8385414C858FBA52C16C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FAB7C1A3DEE48830213AB12 /* Pods-EconoDrive-FXBlurView */;
+			targetProxy = DB158385372FA78FD3EF3AB0 /* PBXContainerItemProxy */;
+		};
+		E7498A18BC6DC1FCE41A5EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5A5EE65CAA72054EE88CB49 /* Pods-EconoDrive-MessageBanner */;
+			targetProxy = BB4381A5DEC357103A383D9C /* PBXContainerItemProxy */;
+		};
+		FF4350BA9B193AE5A33C2D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FAB7C1A3DEE48830213AB12 /* Pods-EconoDrive-FXBlurView */;
+			targetProxy = 5B6E2BF91AE59A377A548D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0637C293BF4D0E0D1C473A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F591FDB22E61A0E0064922E /* Pods-EconoDrive-HexColors-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-HexColors/Pods-EconoDrive-HexColors-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16D5EECCFD86CED803600249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE43E0B7EE301B0CF262EC3 /* Pods-EconoDrive-MessageBanner-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-MessageBanner/Pods-EconoDrive-MessageBanner-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1E650DBA9EC32A985F6B3089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922AD993339475DC822523F1 /* Pods-EconoDrive.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDE1EFF0B536D93036D8DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E78D2D4F5DD8F53A6F388F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		67F6ABBDD2559863F063D5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F591FDB22E61A0E0064922E /* Pods-EconoDrive-HexColors-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-HexColors/Pods-EconoDrive-HexColors-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B58980918BC758AA47D1E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE2A189212CF32A71A83B27 /* Pods-EconoDrive-FXBlurView-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-FXBlurView/Pods-EconoDrive-FXBlurView-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BBE83826DBCC2F1404A10CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A17A1CFCE098C7F18AE3B1 /* Pods-EconoDrive-FMDB-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-FMDB/Pods-EconoDrive-FMDB-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7760AAC224D9AF3A5FBD3FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E9482CCE176972A1617BA1 /* Pods-EconoDrive-CocoaAsyncSocket-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-CocoaAsyncSocket/Pods-EconoDrive-CocoaAsyncSocket-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9DE09064AEE165F6C8CD2D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE2A189212CF32A71A83B27 /* Pods-EconoDrive-FXBlurView-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-FXBlurView/Pods-EconoDrive-FXBlurView-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAC6C51004FC8AD530FA3CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A17A1CFCE098C7F18AE3B1 /* Pods-EconoDrive-FMDB-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-FMDB/Pods-EconoDrive-FMDB-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB279E1BD19786537E18C93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E9482CCE176972A1617BA1 /* Pods-EconoDrive-CocoaAsyncSocket-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-CocoaAsyncSocket/Pods-EconoDrive-CocoaAsyncSocket-prefix.pch";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCF894046292557E6B9351D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC5DE5D97D42C0665BD7776 /* Pods-EconoDrive.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE506AFD7BD07E455854B5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE43E0B7EE301B0CF262EC3 /* Pods-EconoDrive-MessageBanner-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EconoDrive-MessageBanner/Pods-EconoDrive-MessageBanner-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E86158017F98824D7DC9CC /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-MessageBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D5EECCFD86CED803600249 /* Debug */,
+				FE506AFD7BD07E455854B5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7F5F5A6A5DB5BF345EF65D /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-FXBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE09064AEE165F6C8CD2D91 /* Debug */,
+				6B58980918BC758AA47D1E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D1AAE4AF9915C79D0A34199 /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7760AAC224D9AF3A5FBD3FFF /* Debug */,
+				CB279E1BD19786537E18C93A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DCF117DA3E0BBDF5E3FACD /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-HexColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F6ABBDD2559863F063D5A7 /* Debug */,
+				0637C293BF4D0E0D1C473A94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD28DC63D6DC515930E8113 /* Build configuration list for PBXNativeTarget "Pods-EconoDrive-FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BBE83826DBCC2F1404A10CF /* Debug */,
+				AAC6C51004FC8AD530FA3CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E289129D2337A941ECD035B7 /* Build configuration list for PBXNativeTarget "Pods-EconoDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF894046292557E6B9351D7 /* Debug */,
+				1E650DBA9EC32A985F6B3089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42C77D426AAE3F68C51CAE2 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E78D2D4F5DD8F53A6F388F /* Debug */,
+				3FDE1EFF0B536D93036D8DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EB2F97D939F8FD44123E793 /* Project object */;
+}

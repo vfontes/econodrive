@@ -1,0 +1,5 @@
+#include "Pods-EconoDrive-FMDB.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/FMDB" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CocoaAsyncSocket" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/FXBlurView" "${PODS_ROOT}/Headers/Public/HexColors" "${PODS_ROOT}/Headers/Public/MessageBanner"
+OTHER_LDFLAGS = ${PODS_ECONODRIVE_FMDB_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
